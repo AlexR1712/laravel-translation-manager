@@ -1,13 +1,17 @@
 {
-    "name": "barryvdh/laravel-translation-manager",
-    "description": "Manage Laravel Translations",
+    "name": "alexr1712/laravel-translation-manager",
+    "description": "Manage Laravel Translations, Modded version",
     "keywords": ["laravel", "translations", "translator"],
     "license": "MIT",
     "authors": [
         {
             "name": "Barry vd. Heuvel",
             "email": "barryvdh@gmail.com"
-        }
+        },
+        {
+            "name": "Alexander Jose Rodriguez Duven",
+            "email": "alexr1712@gmail.com"
+        }        
     ],
     "require": {
         "php": ">=5.4.0",

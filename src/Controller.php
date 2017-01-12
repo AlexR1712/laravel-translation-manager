@@ -61,8 +61,6 @@ class Controller extends BaseController
     {
         //Set the default locale as the first one. 
         $locales = Translation::groupBy('locale')
-            ->select('locale')
-            ->get()
             ->pluck('locale');
 
         if ($locales instanceof Collection) {
